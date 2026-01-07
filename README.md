@@ -14,7 +14,7 @@ Aumenta las velocidades notoriamente.
 
 ## 🚀 Uso
 
-1. Descarga `nvme-auto.bat`
+1. Descarga `nvme-nativo.bat`
 2. Click derecho → **Ejecutar como administrador**
 3. Sigue las ventanas de confirmación
 4. Reinicia el sistema si realizas cambios
