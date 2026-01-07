@@ -9,9 +9,7 @@ Herramienta simple para **detectar, habilitar o revertir el uso del controlador 
 - Windows 11
 - SSD NVMe compatible
 - Ejecutar **como Administrador**
-- PowerShell disponible  
-  (usado solo para UI y detección, no para modificar el sistema)
-
+- 
 ---
 
 ## 🚀 Uso
