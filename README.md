@@ -1,6 +1,7 @@
 # NVMe Native Driver Toggle for Windows 11
 
-Herramienta simple para **detectar, habilitar o revertir el uso del controlador NVMe nativo (`nvmedisk.sys`) en Windows 11**, evitando el stack heredado (`disk.sys` / StorPort SCSI).
+Herramienta simple para **habilitar, revertir o respaldar la clave del registro asociada al uso del controlador NVMe (`nvmedisk.sys`) en Windows 11**, evitando el stack heredado (`disk.sys` / StorPort SCSI).
+Aumenta las velocidades notoriamente.
 
 ---
 
@@ -9,7 +10,6 @@ Herramienta simple para **detectar, habilitar o revertir el uso del controlador 
 - Windows 11
 - SSD NVMe compatible
 - Ejecutar **como Administrador**
-- 
 ---
 
 ## 🚀 Uso
