@@ -32,8 +32,9 @@ goto MENU
 :ENABLE
 cls
 echo Habilitando NVMe nativo...
-reg add "HKLM\SYSTEM\CurrentControlSet\Services\stornvme" /v Start /t REG_DWORD /d 0 /f
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\StorPort" /v EnableNVMeMode /t REG_DWORD /d 1 /f
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 735209102 /t REG_DWORD /d 1 /f
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 1853569164 /t REG_DWORD /d 1 /f
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides /v 156965516 /t REG_DWORD /d 1 /f
 echo.
 echo NVMe nativo habilitado correctamente.
 echo Reinicia el sistema para aplicar los cambios.
